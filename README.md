@@ -15,7 +15,7 @@ Instead of just reading about `clone`, `branch`, `commit`, `push`, and opening a
 
 ## Get Started
 
-Open **Git-Workflow-Practice.md** and follow the instructions step by step.
+Open **Git-Workflow-Tutorial.md** and follow the instructions step by step.
 
 **Estimated Time:** 20–30 minutes
 
