@@ -19,6 +19,8 @@ Download a copy of this repository to your machine so you can work on it locally
 
 ## Command
 
+First, open a terminal on your machine and navigate to the location where you want to save this repository.
+
 1. Go to this repository on GitHub.
 2. Click the green **Code** button.
 3. Select **HTTPS** and copy the URL.
@@ -45,5 +47,42 @@ You should see:
 On branch main
 nothing to commit, working tree clean
 ```
+
+---
+
+# Step 2: Create a Branch
+
+## Goal
+
+Create a new branch for your changes. A branch keeps your work separate from `main` until it is ready to be reviewed and merged.
+
+## Command
+
+Before making any changes, create and switch to your own branch.
+
+Run:
+
+```bash
+git checkout -b fix-greeting-bug
+```
+
+The `git checkout -b` command creates a new branch and automatically switches you to it. In this exercise, you are creating a branch called `fix-greeting-bug` where you will make your code changes.
+
+## Checkpoint
+
+Run:
+
+```bash
+git branch
+```
+
+You should see:
+
+```text
+* fix-greeting-bug
+  main
+```
+
+The `*` shows which branch you are currently working on.
 
 ---
