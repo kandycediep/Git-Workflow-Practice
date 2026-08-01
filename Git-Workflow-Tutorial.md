@@ -122,7 +122,7 @@ Save the file after making your change.
 Run:
 
 ```bash
-python greeting.py
+python3 greeting.py
 ```
 
 You should see:
