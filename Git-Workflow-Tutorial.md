@@ -171,7 +171,7 @@ Example:
 
 ```text
 Changes not staged for commit:
-  modified:   greet.py
+  modified:   greeting.py
 ```
 
 Running:
