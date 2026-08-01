@@ -1,7 +1,5 @@
 def welcome_message():
-    """
-    Returns a welcome message for new interns.
-    """
+    # returns a welcome message for new interns. fix the typo!
     return "Welcom to the team!"
 
 
