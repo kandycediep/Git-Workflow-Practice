@@ -86,3 +86,49 @@ You should see:
 The `*` shows which branch you are currently working on.
 
 ---
+
+# Step 3: Make a Change
+
+## Goal
+
+Fix a small bug in the starter code. This will be the change you commit and submit in your Pull Request.
+
+## Command
+
+Open:
+
+```text
+greet.py
+```
+
+The `welcome_message()` function contains a typo in the welcome message. Update the function so it returns:
+
+```text
+Welcome to the team!
+```
+
+instead of:
+
+```text
+Welcom to the team!
+```
+
+Save the file after making your change.
+
+## Checkpoint
+
+Run:
+
+```bash
+python greet.py
+```
+
+You should see:
+
+```text
+Welcome to the team!
+```
+
+This confirms that your change was successful.
+
+---
