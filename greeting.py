@@ -1,6 +1,6 @@
 def welcome_message():
     # returns a welcome message for new interns. fix the typo!
-    return "Welcom to the team!"
+    return "Welcome to the team!"
 
 
 if __name__ == "__main__":
