@@ -65,10 +65,10 @@ Before making any changes, create and switch to your own branch.
 Run:
 
 ```bash
-git checkout -b fix-greeting-bug
+git checkout -b fixing-greeting-bug
 ```
 
-The `git checkout -b` command creates a new branch and automatically switches you to it. In this exercise, you are creating a branch called `fix-greeting-bug` where you will make your code changes.
+The `git checkout -b` command creates a new branch and automatically switches you to it. In this exercise, you are creating a branch called `fixing-greeting-bug` where you will make your code changes.
 
 ## Checkpoint
 
@@ -81,7 +81,7 @@ git branch
 You should see:
 
 ```text
-* fix-greeting-bug
+* fixing-greeting-bug
   main
 ```
 
@@ -217,7 +217,7 @@ You should see:
 
 ```text
 Changes to be committed:
-  modified:   greet.py
+  modified:   greeting.py
 ```
 
 The file should appear under **"Changes to be committed"**, which means it is ready to be saved in your next commit.
@@ -235,7 +235,7 @@ Upload your branch and its commit to GitHub so your changes are available for re
 Run:
 
 ```bash
-git push origin fix-greeting-bug
+git push origin fixing-greeting-bug
 ```
 
 The `git push` command uploads your local branch and its commits to GitHub. The `origin` refers to the remote repository where your project is stored.
@@ -247,7 +247,7 @@ Go to this repository on GitHub and refresh the page.
 You should see a banner suggesting you open a Pull Request for:
 
 ```text
-fix-greeting-bug
+fixing-greeting-bug
 ```
 
 This confirms that your branch was successfully pushed to GitHub.
@@ -268,7 +268,7 @@ On GitHub:
 2. Make sure the PR is comparing:
 
 ```text
-fix-greeting-bug → main
+fixing-greeting-bug → main
 ```
 
 3. Add a short title, for example:
@@ -282,6 +282,9 @@ Fix welcome message typo
    - Why you made the change
 
 5. Click **Create pull request**.
+
+<img width="1176" height="765" alt="Recording 2026-08-01 at 19 43 39" src="https://github.com/user-attachments/assets/2e92d3d6-61ae-4356-b1f5-8656ec35b2a4" />
+
 
 ## Checkpoint
 
