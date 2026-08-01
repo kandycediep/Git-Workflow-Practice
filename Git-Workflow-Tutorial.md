@@ -288,3 +288,17 @@ You should now have an open Pull Request on GitHub.
 On a real team, this is where a teammate would review your changes, leave feedback, and approve the update before it is merged.
 
 ---
+
+# 🎉 You Completed Your First Git Workflow
+
+clone → branch → edit → stage → commit → push → PR
+
+Nice work! You just completed the core Git workflow that you'll use for most changes on a development team. The code you change will vary, but the Git process stays the same.
+
+## What's Next?
+
+This tutorial covered the basics. Future versions will include:
+
+- Handling merge conflicts
+- Responding to code review comments
+- Keeping your branch updated with `git pull`
