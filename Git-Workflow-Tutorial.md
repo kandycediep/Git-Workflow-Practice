@@ -98,7 +98,7 @@ Fix a small bug in the starter code. This will be the change you commit and subm
 Open:
 
 ```text
-greet.py
+greeting.py
 ```
 
 The `welcome_message()` function contains a typo in the welcome message. Update the function so it returns:
@@ -120,7 +120,7 @@ Save the file after making your change.
 Run:
 
 ```bash
-python greet.py
+python greeting.py
 ```
 
 You should see:
@@ -130,5 +130,161 @@ Welcome to the team!
 ```
 
 This confirms that your change was successful.
+
+---
+
+# Step 4: Review Your Changes
+
+## Goal
+
+Check which files you changed and review the exact updates before saving them in a commit.
+
+## Command
+
+Run:
+
+```bash
+git status
+```
+
+This shows which files Git noticed have changed.
+
+Next, run:
+
+```bash
+git diff
+```
+
+This shows the exact lines that were added, removed, or modified.
+
+## Checkpoint
+
+After editing `greeting.py`, you should see it listed when you run:
+
+```bash
+git status
+```
+
+Example:
+
+```text
+Changes not staged for commit:
+  modified:   greet.py
+```
+
+Running:
+
+```bash
+git diff
+```
+
+should show your typo fix:
+
+```diff
+- return "Welcom to the team!"
++ return "Welcome to the team!"
+```
+
+---
+
+# Step 5: Stage Your Change
+
+## Goal
+
+Tell Git which changes you want to include in your next commit.
+
+## Command
+
+Run:
+
+```bash
+git add greeting.py
+```
+
+The `git add` command moves your changes into the staging area. This tells Git that you are ready to include this file in your next commit.
+
+## Checkpoint
+
+Run:
+
+```bash
+git status
+```
+
+You should see:
+
+```text
+Changes to be committed:
+  modified:   greet.py
+```
+
+The file should appear under **"Changes to be committed"**, which means it is ready to be saved in your next commit.
+
+---
+
+# Step 7: Push Your Branch to GitHub
+
+## Goal
+
+Upload your branch and its commit to GitHub so your changes are available for review.
+
+## Command
+
+Run:
+
+```bash
+git push origin fix-greeting-bug
+```
+
+The `git push` command uploads your local branch and its commits to GitHub. The `origin` refers to the remote repository where your project is stored.
+
+## Checkpoint
+
+Go to this repository on GitHub and refresh the page.
+
+You should see a banner suggesting you open a Pull Request for:
+
+```text
+fix-greeting-bug
+```
+
+This confirms that your branch was successfully pushed to GitHub.
+
+---
+
+# Step 8: Open a Pull Request
+
+## Goal
+
+Create a Pull Request (PR) to propose merging your branch into `main`. A PR allows teammates to review your changes before they are added to the main codebase.
+
+## Command
+
+On GitHub:
+
+1. Click **"Compare & pull request"** after pushing your branch.
+2. Make sure the PR is comparing:
+
+```text
+fix-greeting-bug → main
+```
+
+3. Add a short title, for example:
+
+```text
+Fix welcome message typo
+```
+
+4. In the description, briefly explain:
+   - What you changed
+   - Why you made the change
+
+5. Click **Create pull request**.
+
+## Checkpoint
+
+You should now have an open Pull Request on GitHub.
+
+On a real team, this is where a teammate would review your changes, leave feedback, and approve the update before it is merged.
 
 ---
