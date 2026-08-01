@@ -33,6 +33,8 @@ cd git-workflow-practice
 
 The `git clone` command downloads a copy of the repository to your machine. The `cd` command moves you into the project folder so you can start working.
 
+<img width="400" height="260" alt="Untitled_2x (1)" src="https://github.com/user-attachments/assets/75b1f249-e1e0-4ec8-8008-54632bb2c358" />
+
 ## Checkpoint
 
 Run:
