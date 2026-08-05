@@ -224,7 +224,7 @@ The file should appear under **"Changes to be committed"**, which means it is re
 
 ---
 
-# Step 7: Push Your Branch to GitHub
+# Step 6: Push Your Branch to GitHub
 
 ## Goal
 
@@ -254,7 +254,7 @@ This confirms that your branch was successfully pushed to GitHub.
 
 ---
 
-# Step 8: Open a Pull Request
+# Step 7: Open a Pull Request
 
 ## Goal
 
